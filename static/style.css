@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f9;
+  color: #333;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+}
+
+main {
+  padding: 1rem 2rem;
+}
+
+.controls {
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-right: 0.5rem;
+}
+
+select {
+  margin-right: 1rem;
+  padding: 0.3rem;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background-color: #004080;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: default;
+}
+
+table.dataTable {
+  width: 100% !important;
+}
+
+table.dataTable thead th {
+  background-color: #e4efff;
+  color: #003366;
+}
